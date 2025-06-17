@@ -1,0 +1,94 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #e8f0fe;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 400px;
+  margin: 30px auto;
+  background-color: white;
+  padding: 25px 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+h1 {
+  color: #2b5fab;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+  color: #333;
+  text-align: left;
+}
+
+input, select {
+  width: 100%;
+  padding: 12px;
+  margin-top: 5px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+button {
+  margin-top: 20px;
+  padding: 14px;
+  width: 100%;
+  background-color: #2b5fab;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #1d4381;
+}
+
+#resultado {
+  margin-top: 25px;
+  font-size: 18px;
+  color: #1a1a1a;
+  font-weight: bold;
+}
+
+footer {
+  margin-top: 40px;
+  font-size: 14px;
+  color: #666;
+}
+
+/* 🎯 Responsive para pantallas menores a 500px (móviles Android) */
+@media (max-width: 500px) {
+  .container {
+    margin: 20px 10px;
+    padding: 20px 15px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  input, select, button {
+    font-size: 16px;
+  }
+
+  label {
+    font-size: 15px;
+  }
+
+  #resultado {
+    font-size: 16px;
+  }
+}

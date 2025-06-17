@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Calculadora de Grass</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script2.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Calculadora de Grass</h1>
+
+    <label>Altura del área (m):</label>
+    <input type="number" id="altura" step="0.01" placeholder="Ej: 2.5" required>
+
+    <label>Ancho del área (m):</label>
+    <input type="number" id="ancho" step="0.01" placeholder="Ej: 3.0" required>
+
+    <label>Tipo de material:</label>
+   <select id="tipo">
+  <option value="2400">Planchas Decorativas (60 cm × 40 cm)</option>
+  <option value="20000">Rejas (2 m × 1 m)</option>
+  <option value="30000">Mallas (3 m × 1 m)</option>
+</select>
+
+
+    <button onclick="calcularPlanchas()">Calcular</button>
+
+    <div id="resultado"></div>
+
+    <footer>
+      Desarrollado por <strong>&gt;&gt;Davi</strong>
+    </footer>
+  </div>
+</body>
+</html>
